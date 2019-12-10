@@ -1,0 +1,21 @@
+.header {
+	-fx-background-color: #f86300;
+}
+
+.gradient {
+	-fx-background-color: linear-gradient(#f7c9bd, #fcf3f3); 
+}
+
+.homeButtons:hover {
+	-fx-background-color: #FF895E;
+	-fx-text-fill: white;
+	-fx-opacity: 1;
+}
+
+.colorButtons {
+	-fx-background-color: #f79d59;
+}
+
+.colorButtons2 {
+	-fx-background-color: #f86300;
+}

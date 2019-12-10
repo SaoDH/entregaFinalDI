@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="1024.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerHomePage">
+   <children>
+      <BorderPane layoutX="-8.0" prefHeight="590.0" prefWidth="682.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <VBox BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane prefHeight="55.0" styleClass="header">
+                     <children>
+                        <ImageView fx:id="drawerImage" fitHeight="28.0" fitWidth="34.0" layoutX="25.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/drawer.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="300.0">
+                     <children>
+                        <Pane fx:id="pane1" styleClass="img1" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Pane fx:id="pane2" layoutX="10.0" layoutY="10.0" styleClass="img2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Pane fx:id="pane3" layoutX="10.0" layoutY="10.0" styleClass="img3" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Pane fx:id="pane4" layoutX="10.0" layoutY="10.0" styleClass="img4" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </top>
+         <center>
+            <GridPane minHeight="300.0" minWidth="300.0" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <BorderPane.margin>
+                  <Insets left="320.0" right="320.0" />
+               </BorderPane.margin>
+               <children>
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Start" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons" />
+                     </styleClass>
+                  </JFXButton>
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Events" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons2" />
+                     </styleClass>
+                  </JFXButton>
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Settings" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons" />
+                     </styleClass>
+                  </JFXButton>
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="News" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons2" />
+                     </styleClass>
+                  </JFXButton>
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Contact" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons" />
+                     </styleClass>
+                  </JFXButton>
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Social" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons2" />
+                     </styleClass>
+                  </JFXButton>
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Book" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons" />
+                     </styleClass>
+                  </JFXButton>
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Services" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons2" />
+                     </styleClass>
+                  </JFXButton>
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Exit" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons" />
+                     </styleClass>
+                  </JFXButton>
+               </children>
+            </GridPane>
+         </center>
+      </BorderPane>
+      <AnchorPane fx:id="opacityPane" opacity="0.3" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane fx:id="drawerPane" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <JFXButton opacity="0.8" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton opacity="0.8" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton opacity="0.8" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton opacity="0.8" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton opacity="0.8" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton opacity="0.8" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton opacity="0.8" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 7">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
