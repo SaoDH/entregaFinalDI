@@ -1,0 +1,17 @@
+.image1 {
+	-fx-background-image: url(donatello.jpg); 
+}
+
+.image2 {
+	-fx-background-image: url(leonardo.jpg); 
+}
+
+.image3 {
+	-fx-background-image: url(michelangelo.jpg); 
+}
+
+.image4 {
+	-fx-background-image: url(raphael.jpg); 
+}
+
+
