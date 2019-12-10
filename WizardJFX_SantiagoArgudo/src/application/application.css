@@ -1,0 +1,14 @@
+.pane1{
+	-fx-background-color: linear-gradient(#faa396, #ffbcbc) ;
+	
+}
+.pane2{
+	-fx-background-color: linear-gradient(#0c948f, #15a9ff);
+}
+.pane3{
+	-fx-background-color: linear-gradient(#2d3d4a, #9994f9);
+}
+
+.fondoBoton{
+	-fx-background-color: white;
+}
